@@ -1,4 +1,6 @@
 # Warunki logiczne
+# "and" ma pierwszeństwo przed "or"
+
 temp = 12
 is_sun_shining = False
 
@@ -44,8 +46,8 @@ else:
 b2 = 1
 c = [1, 2, 3]
 
-if b2 in c:
-    print("TAK")
+if b2 not in c:
+    print("nie")
     print(type(c))
 else:
-    print("NIE")
+    print("tak")

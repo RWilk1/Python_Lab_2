@@ -1,5 +1,6 @@
 # Warunki logiczne
 # "and" ma pierwszeństwo przed "or"
+# https://pythongeeks.org/python-operator-precedence/
 
 temp = 12
 is_sun_shining = False

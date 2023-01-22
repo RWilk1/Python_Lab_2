@@ -49,6 +49,7 @@ print("{:08b}".format(b))
 print("{:08b}".format(a >> b))
 # bo: 1+1 = 1; 0+1=1; 1+0=1
 
+
 ######################################################
 # przesunięcie bitowe w lewo: "<<"
 print("\n", "PRZESUNIĘCIE BITOWE W LEWO", end="", sep="")
@@ -63,7 +64,6 @@ print(bin(b))
 print("{:08b}".format(a))
 print("{:08b}".format(b))
 print("{:08b}".format(a << b))
-
 
 
 ######################################################
@@ -83,3 +83,4 @@ print("{:08b}".format(~a))
 for i in range(5, -5, -1):
     print("{0:08b} => {1:d}".format(i & 255, i))
 
+######################################################

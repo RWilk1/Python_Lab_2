@@ -29,6 +29,12 @@ print(9 ** 0.5)
 # Liczby ujemne
 print(2 + (-2))
 
+
+# Zmiana znaków liczb
+print(abs(-4))
+print(-abs(4))
+
+
 """
 '\t' - tab
 '\n' - new line

@@ -52,3 +52,11 @@ if b2 not in c:
     print(type(c))
 else:
     print("tak")
+
+############################################
+# Łączenie operatorów w sposób łańcuchowy
+a = 3
+b = 4
+c = 7
+print(a < b < c)
+
